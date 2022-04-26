@@ -5,7 +5,7 @@ import PokemonImage from "../../components/PokemonImage/PokemonImage";
 const PokemonImageList = ({ pokemonArr }) => {
 
   const pokeImagesJsx = pokemonArr.map( (pokemon) => {
-    return <PokemonImage key={"pokemon" + pokemon.id}  name={pokemon.name} sprite={pokemon.sprite} />
+    return <PokemonImage key={"pokemon" + pokemon.id} id={pokemon.id} name={pokemon.name} sprite={pokemon.sprite} />
   });
 
   return (
