@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './NavBar.scss';
 
 const NavBar = () => {
@@ -9,4 +9,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;
